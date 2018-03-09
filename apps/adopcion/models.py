@@ -4,7 +4,6 @@ from django.db import models
 
 
 class Persona(models.Model):
-    id = models.CharField(max_length=10,primary_key=True)
     nombre = models.CharField(max_length=50)
     apellidos = models.CharField(max_length=70)
     edad = models.IntegerField()
